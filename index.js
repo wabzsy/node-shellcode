@@ -36,7 +36,7 @@ const kernel32 = new ffi.Library('kernel32', {
     //     LPDWORD                 lpThreadId,         // OUT
     //   ]
     // ]
-    'CreateThread': [HANDLE, ['pointer', SIZE_T, LPVOID, 'pointer', DWORD, LPDWORD]],
+    'CreateThread': [HANDLE, ['pointer', SIZE_T, LPVOID, LPVOID, DWORD, LPDWORD]],
     // [DWORD ret,[
     //     HANDLE hHandle,
     //     DWORD  dwMilliseconds,
