@@ -1,0 +1,26 @@
+{
+  "name": "node-shellcode",
+  "version": "1.0.0",
+  "description": "nodejs shellcode loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wabzsy/node-shellcode.git"
+  },
+  "keywords": [
+    "shellcode"
+  ],
+  "author": "wabzsy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wabzsy/node-shellcode/issues"
+  },
+  "homepage": "https://github.com/wabzsy/node-shellcode#readme",
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3"
+  }
+}
